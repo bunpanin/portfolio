@@ -1,0 +1,32 @@
+@import "tailwindcss";
+.glitch-text {
+  position: relative;
+}
+
+.glitch-text::before,
+.glitch-text::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.7;
+}
+
+.glitch-text::before {
+  color: #a3ff12;
+  animation: glitch 2s infinite linear alternate-reverse;
+}
+
+.glitch-text::after {
+  color: #ffffff;
+  animation: glitch 1.5s infinite linear alternate;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
