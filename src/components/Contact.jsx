@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center px-6 py-20 relative bg-transparent"
+      className="min-h-screen flex items-center px-6 py-5 relative bg-transparent"
     >
       <div className="max-w-7xl mx-auto w-full">
         {/* Header */}

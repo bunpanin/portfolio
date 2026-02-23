@@ -5,7 +5,8 @@ export default function Navbar() {  const [isMenuOpen, setIsMenuOpen] = useState
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
 
-  const sections = ["home", "work", "about", "contact"];
+  // const sections = ["home", "work", "about", "contact"];
+  const sections = ["home", "about", "experience" , "contact"];
 
   // Detect scroll
   useEffect(() => {
@@ -41,7 +42,7 @@ export default function Navbar() {  const [isMenuOpen, setIsMenuOpen] = useState
       className={`fixed w-full z-50 transition-all duration-300 ${
         scrolled
           ? "bg-black/95 border-b border-lime-400/30"
-          : "bg-transparent"
+          : "bg-black/95"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
@@ -49,7 +50,7 @@ export default function Navbar() {  const [isMenuOpen, setIsMenuOpen] = useState
           {/* Logo */}
           <div className="text-2xl font-bold font-mono tracking-wider">
             <span className="text-white">&lt;</span>
-            <span className="text-lime-400">BP</span>
+            <span className="text-lime-400">Bpn</span>
             <span className="text-white">/&gt;</span>
           </div>
 
