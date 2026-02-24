@@ -191,7 +191,7 @@ const About = () => {
 
               <ul className="space-y-3">
                 <li className="cyber-box">
-                  <span className="text-lime-400/70">Birthday:</span> ** ** 2005
+                  <span className="text-lime-400/70">Birthday:</span> 15 11 2005
                 </li>
                 <li className="cyber-box">
                   <span className="text-lime-400/70">Phone:</span> +855 066 260 411

@@ -2,9 +2,10 @@ import { useEffect, useState } from "react";
 
 export default function Hero() {
   const texts = [
-    "BACKEND DEVELOPER",
-    "JAVA SPRING BOOT",
-    "DEVOPS ENTHUSIAST",
+    "Software Engineer",
+    "Backend Developer",
+    "DevOps Engineer",
+    "Flutter Developer",
   ];
 
   const [glitchText, setGlitchText] = useState("");

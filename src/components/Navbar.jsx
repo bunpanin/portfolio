@@ -50,7 +50,7 @@ export default function Navbar() {  const [isMenuOpen, setIsMenuOpen] = useState
           {/* Logo */}
           <div className="text-2xl font-bold font-mono tracking-wider">
             <span className="text-white">&lt;</span>
-            <span className="text-lime-400">Bpn</span>
+            <span className="text-lime-400">pn</span>
             <span className="text-white">/&gt;</span>
           </div>
 

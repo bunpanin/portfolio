@@ -58,7 +58,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/bun-panin-aa08ab33b/"
             target="_blank"
             className="p-4 border border-lime-400 text-lime-400 hover:bg-lime-400 hover:text-black transition-all duration-300"
           >
