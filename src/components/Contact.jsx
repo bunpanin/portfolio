@@ -72,7 +72,7 @@ export default function Contact() {
             {">"} uptime --since
           </div>
           <div className="text-white">
-            System operational since 2023
+            System operational since 2024
           </div>
 
           <div className="text-lime-400/70 mt-4">

@@ -80,10 +80,10 @@ export default function Hero() {
         {/* Buttons */}
         <div className="flex gap-4 font-mono">
           <button
-            onClick={() => scrollToSection("work")}
+            onClick={() => scrollToSection("experience")}
             className="px-8 py-3 bg-lime-400 text-black font-bold hover:bg-white transition-all duration-300 hover:scale-105 relative group overflow-hidden"
           >
-            <span className="relative z-10">VIEW_PROJECTS</span>
+            <span className="relative z-10">MY_EXPERIENCE</span>
             <div className="absolute inset-0 bg-white transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
           </button>
 
