@@ -145,7 +145,7 @@
 
 
 import React from "react";
-import syp from "../assets/605954495_122206461992562324_5982430992121286706_n.jpg";
+import syp from "../assets/pn.jpg";
 
 const About = () => {
   return (
@@ -170,8 +170,7 @@ const About = () => {
               src={ syp }
               alt="Profile"
               className="w-full border border-cyan-400 
-                         shadow-[0_0_30px_rgba(34,211,238,0.3)] 
-                         grayscale contrast-125"
+                         shadow-[0_0_30px_rgba(34,211,238,0.3)] contrast-100"
             />
           </div>
 
